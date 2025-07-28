@@ -17,7 +17,40 @@
         <!--Contêiner de exibição de senha-->
         <div id="password_container">
                    <span id="password"></span>
+            <!--Botão de Copia-->
+            <button id="copy">
+                <i class="fa-solid fa-copy"></i>
+            </button>
         </div>
+
+        <!--Opções de Senha-->
+          <div id="password_items">
+            <!--Campo de para o comprimento de senha-->
+            <div class="item">
+                    <input id="size" name="size" type="number">
+                    <label for="size">
+                        Comprimento da Senha
+                    </label>
+            </div>
+            <!--Caixa de seleção para letra maiúscula-->
+            <div class="item">
+                <input type="checkbox" name="include_uppercase" id="include_uppercase">
+                <label for="include_uppercase">
+                    Incluir Letras Maiúscula
+                </label>
+            </div>
+            <!--Incluir pelo menos uma letra maiúscula-->
+            <div class="item">
+                <input type="checkbox" name="include_lowercase" id="include_lowercase">
+                <label for="include_lowercase">
+                    Incluir pelo menos uma letra minúscula
+                </label>
+            </div>
+            <!--Incluir pelo menos um número-->
+            <div class="item">
+                <input type="checkbox" name="include_number" id="include_number">
+            </div>
+          </div>
 
     </div>
     
