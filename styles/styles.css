@@ -7,4 +7,34 @@
  --color-neutral-1: #f8fafc;
  --color-neutral-2: #24232b;
  --color-neutral-3: #13121a;
+
+ /*Global*/ 
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospase;
+
+    dy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: var(--color-neutral-3);
+
+    }
+
+    /*Container*/
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+}
+
+
+
+
 }
