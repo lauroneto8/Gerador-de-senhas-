@@ -7,6 +7,7 @@
  --color-neutral-1: #f8fafc;
  --color-neutral-2: #24232b;
  --color-neutral-3: #13121a;
+}
 
  /*Global*/ 
  {
@@ -14,8 +15,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospase;
+}
 
-    dy {
+    body {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -31,10 +33,3 @@
         align-items: center;
         gap: 12px;
     }
-
-}
-
-
-
-
-}
