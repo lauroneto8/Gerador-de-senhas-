@@ -16,16 +16,13 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospase;
 }
-
     body {
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 100vh;
         background-color: var(--color-neutral-3);
-
     }
-
     /*Container*/
     #container {
         display: flex;
@@ -33,3 +30,12 @@
         align-items: center;
         gap: 12px;
     }
+    #password_img {
+        width: 100px;
+    }
+    #title {
+        color: var(--color-neutral-1);
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
